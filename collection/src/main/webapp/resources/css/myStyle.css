@@ -1,0 +1,124 @@
+body{
+	color: black;
+
+}
+
+img {
+    margin-left: 80px;
+}
+
+img#thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 110px;
+}
+
+img#thumbnail:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 0.3;
+}
+
+.text {
+	text-align: center;
+  background-color: #4286f4;
+  color: white;
+  font-size: 5px;
+  padding: 10px 10px;
+}
+
+h1 {
+	font-size: 40px;
+    color: #4286f4;
+    margin-left: 80px;
+	font: serif sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+    margin-left: 80px;
+	font: serif sans-serif;
+}
+
+h3 {
+	font-size: 20px;
+	color: #c1200b;
+    margin-left: 80px;
+	font: serif sans-serif;
+}
+
+div#button{
+	marginGet-left: 240px;
+	
+}
+
+div{
+	margin-left: 80px;
+	font-size: 30px;
+}
+
+div#effect{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+	-webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+}
+
+div#para {
+	color: black;
+   	margin-left: 80px; 
+   	font: 25px arial, sans-serif;
+   	text-align: justify;
+}
+
+div#para2 {
+	color: black;
+   	margin-left: 80px; 
+   	font: 20px arial, sans-serif;
+   	text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+	position: relative;
+ 	left: -5%; /* or right 50% */
+  	text-align: left;
+  	border: 0.5px solid
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 18px 60px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #7988ad;
+}
+
+.text {
+  background-color: #4286f4;
+  color: white;
+  font-size: 16px;
+  padding: 16px 10px;
+}
+
