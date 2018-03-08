@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>CW2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+	<servlet-name>Register</servlet-name>
+	<servlet-class>ePetition.Register</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/CW2/Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>ePetition.Login</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+	<servlet-name>Logout</servlet-name>
+	<servlet-class>ePetition.Logout</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Logout</servlet-name>
+	<url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>NewPetition</servlet-name>
+	<servlet-class>ePetition.NewPetition</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>NewPetition</servlet-name>
+	<url-pattern>/CW2/NewPetition</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ViewPetitions</servlet-name>
+	<servlet-class>ePetition.ViewPetitions</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ViewPetitions</servlet-name>
+	<url-pattern>/CW2/ViewPetitions</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>EditPetition</servlet-name>
+	<servlet-class>ePetition.EditPetition</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>EditPetition</servlet-name>
+	<url-pattern>/CW2/EditPetition</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Comment</servlet-name>
+	<servlet-class>ePetition.Comment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Comment</servlet-name>
+	<url-pattern>/CW2/Comment</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>SignPetition</servlet-name>
+	<servlet-class>ePetition.SignPetition</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>SignPetition</servlet-name>
+	<url-pattern>/CW2/SignPetition</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>NicVerification</servlet-name>
+	<servlet-class>ePetition.NicVerification</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>NicVerification</servlet-name>
+	<url-pattern>/CW2/NicVerification</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

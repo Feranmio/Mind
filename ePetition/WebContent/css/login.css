@@ -1,0 +1,14 @@
+form {
+ width: 300px;
+ overflow:hidden;}
+label {
+ clear: both;
+ float: left;
+ width: 40%;}
+input {
+ float: left;
+ width: 55%;}
+ a{
+ float:left;
+ font-size: 100%;
+ }
